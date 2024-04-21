@@ -4,12 +4,12 @@ This module provides functions to convert YAML configuration files to environmen
 ## Installation
 No installation is required for this module. Simply import the functions into your Python script or application as needed.
 
-## Example (yaml_to_env):
+## Example (YAML to env):
 ```
 env_list = transform_yaml_to_env("config.yaml")
 print(env_list)
 ```
-## Example (env_to_yaml):
+## Example (env to YAML):
 ```
 env_config = """
     DB_HOST=localhost
